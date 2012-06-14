@@ -5,8 +5,10 @@
 	<meta name="author" content="Adan Altamira &amp; Kyle Weber" />
 	<meta name="description" content="A geolocation mobile web app experiment." />
 	
-	<link rel="stylesheet" type="text/css" href="assets/styles/reset.css" />
 	<title>Locator</title>
+	
+	<link rel="stylesheet" type="text/css" href="assets/styles/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="assets/styles/global.css" />
 </head>
 <body>
 	<header role="banner">
