@@ -4,6 +4,8 @@
 	<meta charset="utf-8" />
 	<meta name="author" content="Adan Altamira &amp; Kyle Weber" />
 	<meta name="description" content="A geolocation mobile web app experiment." />
+	
+	<link rel="stylesheet" type="text/css" href="assets/styles/reset.css" />
 	<title>Locator</title>
 </head>
 <body>
