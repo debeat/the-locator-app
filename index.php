@@ -7,7 +7,6 @@
 	
 	<title>Locator</title>
 	
-	<link rel="stylesheet" type="text/css" href="assets/styles/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="assets/styles/global.css" />
 </head>
 <body>
