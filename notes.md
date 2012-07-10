@@ -1,3 +1,8 @@
+# 2012-07-09 Notes
+* Using the HTML5 Geolocation API from Sitepoint
+http://www.sitepoint.com/using-the-html5-geolocation-api/#fbid=ITpqBkfr60e 
+* investigate touch events as binding a events is not triggering in phone
+
 # 2012-05-29 Agenda & Discovery
 - Outline purpose of location web app 
 - Research HTML 5 Geolocation API: http://dev.w3.org/geo/api/spec-source.html
@@ -10,7 +15,3 @@
 * Color Palette
 http://kuler.adobe.com/#themes/search?term=glimpse%20of%20earth
 _Glimpse of Earth_
-
-# 2012-07-09 Notes
-* Using the HTML5 Geolocation API from Sitepoint
-http://www.sitepoint.com/using-the-html5-geolocation-api/#fbid=ITpqBkfr60e
