@@ -510,3 +510,8 @@ body {
 	color: #E5E5E5;
 	text-shadow: 1px 1px 0 #332525;
 }
+header,
+article,
+footer {
+	padding: 0 .8em;
+}

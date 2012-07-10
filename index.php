@@ -4,10 +4,12 @@
 	<meta charset="utf-8" />
 	<meta name="author" content="Adan Altamira &amp; Kyle Weber" />
 	<meta name="description" content="A geolocation mobile web app experiment." />
+	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 	
 	<title>Locator</title>
 	
-	<link rel="stylesheet" type="text/css" href="assets/styles/global.css" />
+	<link rel="stylesheet" type="text/css" href="assets/styles/global.css" media="screen" />
+	
 </head>
 <body>
 	<header role="banner">
@@ -25,7 +27,7 @@
 			<p>We're stalking you.</p>
 			<section>
 				<p>Please enable location in your browser. Press the button.</p>
-				<input type="button" value="Locate!">
+				<input class="locate-button" type="button" value="Locate!">
 			</section>
 		</article>
 		<section id="map"></section>
@@ -33,5 +35,7 @@
 	<footer role="conteninfo">
 		<p>&copy; 2012 and Forever. Kyle Weber &amp; Adan Altamira.</p>
 	</footer>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/scripts/main.js"></script>
 </body>
 </html>
