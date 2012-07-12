@@ -1,5 +1,12 @@
 var Locator = {
+	
 	init: function() {
+		// On load initiate geolocation
+		if (navigator.geolocation) {
+			navigator.geolocation.getCurrentPosition(Locator.successCallback,Locator.errorCallback);
+		}
+		
+		// Add event handler to locate button
 		if ($('.locate-button').length >= 1) {
 			
 			$('.locate-button').bind('click', function(){
