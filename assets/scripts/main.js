@@ -1,6 +1,7 @@
 var Locator = {
 	
 	init: function() {
+		$('#enable-message').hide();
 		// On load initiate geolocation
 		if (navigator.geolocation) {
 			navigator.geolocation.getCurrentPosition(Locator.successCallback,Locator.errorCallback);
@@ -24,14 +25,14 @@ var Locator = {
 		
 		var longitude = position.coords.longitude;
 		
-		$('#map').append("<article>latitude: " + latitude + "\nlongitude: " + longitude + "</article>");
+		$('#map').append('<article>latitude: ' + latitude + '\nlongitude: ' + longitude + '</article>');
 	
 	},
 	
 	errorCallback: function(error) {
-		
-		alert(error);
-	
+		// Discovery: If Location Services are Off in Settings, then an error will occur
+		error = error.toString(); 
+		alert('There was an error!\nPossibly Location Services are Off in Settings\nMore info: ' + error);	
 	}
 };
 

@@ -506,12 +506,18 @@ table {
 /* Locator app styles begin */
 
 body {
-	background: #907465;
-	color: #E5E5E5;
-	text-shadow: 1px 1px 0 #332525;
+	background: #eeeeee;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc)); 
+	color: #907465;
+	text-shadow: 0 1px 0 #808080;
 }
 header,
 article,
 footer {
 	padding: 0 .8em;
 }
+
+h1 {
+	font-family: 'Futura-CondensedExtraBold', 'Helvetica-Bold', sans-serif;
+}
+

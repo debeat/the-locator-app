@@ -1,3 +1,6 @@
+# 2012-07-23
+* http://iosfonts.com/
+
 # 2012-07-09 Notes
 * Using the HTML5 Geolocation API from Sitepoint
 http://www.sitepoint.com/using-the-html5-geolocation-api/#fbid=ITpqBkfr60e 
