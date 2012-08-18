@@ -25,7 +25,7 @@
 			<p>Message about app. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat congue mauris vel pellentesque. Phasellus quis lorem lorem. Curabitur nec eleifend leo.</p>
 		</article>
 		<article class="location-prompt">
-			<p>Cheers! We're stalking you.</p>
+			<p class="hidden">Cheers! We're stalking you.</p>
 			<section>
 				<p>Please enable location from your settings &amp; Press the button.</p>
 				<input class="locate-button" type="button" value="Locate!">

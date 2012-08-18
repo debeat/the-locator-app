@@ -1,12 +1,12 @@
 var Locator = {
 	
 	init: function() {
+		// if JS is enabled remove disabled JS message 
 		$('.enable-message').addClass('hidden');
+
 		// On load initiate geolocation
 		if (navigator.geolocation) {
 			navigator.geolocation.getCurrentPosition(Locator.successCallback, Locator.errorCallback);
-			// Enable message
-			$('.location-prompt section').addClass('hidden');
 		}
 		
 		// Add event handler to locate button
@@ -22,7 +22,11 @@ var Locator = {
 		}
 	},
 	
-	successCallback: function(position) {
+	successCallback: function(position) {		
+		// Enable message
+		$('.location-prompt section').addClass('hidden');
+		$('.location-prompt p:eq(0)').removeClass('hidden');
+		
 		var latitude = position.coords.latitude;
 		
 		var longitude = position.coords.longitude;
