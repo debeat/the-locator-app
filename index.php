@@ -18,23 +18,23 @@
 			<h2>Geolocation Experiment</h2>
 		</hgroup>
 		<hr />
-		<section id="enable-message" class="hidden">JavaScript is disabled please enable to unleash awesome.</section>
+		<section class="enable-message">JavaScript is disabled please enable to unleash awesome.</section>
 	</header>
 	<section role="main">
 		<article>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat congue mauris vel pellentesque. Phasellus quis lorem lorem. Curabitur nec eleifend leo.</p>
+			<p>Message about app. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat congue mauris vel pellentesque. Phasellus quis lorem lorem. Curabitur nec eleifend leo.</p>
 		</article>
-		<article id="location-prompt">
-			<p>We're stalking you.</p>
+		<article class="location-prompt">
+			<p>Cheers! We're stalking you.</p>
 			<section>
-				<p>Please enable location in your browser. Press the button.</p>
+				<p>Please enable location from your settings &amp; Press the button.</p>
 				<input class="locate-button" type="button" value="Locate!">
 			</section>
 		</article>
-		<section id="map"></section>
+		<section class="map"></section>
 	</section>
 	<footer role="conteninfo">
-		<p>&copy; 2012 and Forever. Kyle Weber &amp; Adan Altamira.</p>
+		<p>&copy; 2012 and Forever. <a href="http://kylewebdesigner.com">Kyle Weber</a> &amp; <a href="http://adanaltamira.com">Adan Altamira</a>.</p>
 	</footer>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/scripts/main.js"></script>

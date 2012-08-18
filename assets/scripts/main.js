@@ -1,10 +1,12 @@
 var Locator = {
 	
 	init: function() {
-		$('#enable-message').hide();
+		$('.enable-message').addClass('hidden');
 		// On load initiate geolocation
 		if (navigator.geolocation) {
-			navigator.geolocation.getCurrentPosition(Locator.successCallback,Locator.errorCallback);
+			navigator.geolocation.getCurrentPosition(Locator.successCallback, Locator.errorCallback);
+			// Enable message
+			$('.location-prompt section').addClass('hidden');
 		}
 		
 		// Add event handler to locate button
@@ -14,7 +16,7 @@ var Locator = {
 				
 				event.preventDefault();
 				
-				navigator.geolocation.getCurrentPosition(Locator.successCallback,Locator.errorCallback);
+				navigator.geolocation.getCurrentPosition(Locator.successCallback, Locator.errorCallback);
 			});
 			
 		}
@@ -25,7 +27,7 @@ var Locator = {
 		
 		var longitude = position.coords.longitude;
 		
-		$('#map').append('<article>latitude: ' + latitude + '\nlongitude: ' + longitude + '</article>');
+		$('.map').append('<article>latitude: ' + latitude + '\nlongitude: ' + longitude + '</article>');
 	
 	},
 	
