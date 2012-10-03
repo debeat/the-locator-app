@@ -42,4 +42,4 @@ var Locator = {
 	}
 };
 
-Locator.init();
+window.addEventListener('load', Locator.init);
